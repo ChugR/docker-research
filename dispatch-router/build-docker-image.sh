@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t local:research-dispatch-router .
+docker build -t chugr/research-dispatch-router:latest .

@@ -15,7 +15,7 @@ docker run \
        --name qdrouterd \
        -p 0.0.0.0:5672:5672 \
        -p 0.0.0.0:5674:5674 \
-       local:research-dispatch-router qdrouterd
+       chugr/research-dispatch-router
 
 #
 # To shell into this container/image:
